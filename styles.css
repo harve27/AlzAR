@@ -1,0 +1,17 @@
+.teko-semi {
+    font-family: 'Teko', sans-serif;
+}
+
+.teko-semi-light {
+    font-family: 'Teko', sans-serif;
+    font-weight: 900; 
+    font-size: 170%;
+}
+
+.border-test {
+    border: 3px solid red;
+}
+
+.white {
+    color: white;
+}
