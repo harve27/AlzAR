@@ -51,37 +51,46 @@
             <div class="card bg-dark">
                 <!-- Show image on smaller screens
                     <img class="card-img-top" src="https://animals.net/wp-content/uploads/2019/01/Arctic-Fox-2-650x425.jpg"> -->
-                <div class="embed-responsive embed-responsive-16by9">
+                <!-- <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="https://go.echoar.xyz/ctQv" allow="camera *" allowfullscreen></iframe>
-                </div>  
+                </div>   -->
                 <div class="card-body white">
                     <h2 class="title"><strong>My Guitar</strong></h2>
                     <p class="card-text">I have been playing my <b>Fender Acoustasonic</b> for over fifty years! It has stayed with me through thick and thin.</p>
-                    <div class="text-center card-footer">
+                    <div class="text-center">
                         <a href="https://go.echoar.xyz/ctQv" class="btn btn-primary">Show me a guitar!</a>
+
+                        <!-- Should not appear on mobile phones-->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">See on your phone</button>
                     </div>
                 </div>  
             </div>
         </div>
+
         <div class="col-lg-6 col-md-6">
             <div class="card bg-dark">
                 <!-- Show image on smaller screen 
                     <img class="card-img-top" src="https://animals.net/wp-content/uploads/2019/01/Arctic-Fox-2-650x425.jpg"> -->
-                <div class="embed-responsive embed-responsive-16by9">
+                <!-- <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="https://go.echoar.xyz/UwEV" allow="camera *" allowfullscreen></iframe>
-                </div>  
+                </div>   -->
                 <div class="card-body white">
                     <h2 class="title"><strong>My Arctic Fox Friend</strong></h2>
                     <p class="card-text">I met this <b>Arctic Fox</b> while I was travelling in Alaska with <b>my best friends</b> two years ago. I called him <b>Sprite</b>! 
                         I remember having <b>such a good time</b> with <b>Pete</b> and the other guys.</p>
-                    <div class="text-center card-footer">
+                    <div class="text-center">
                         <a href="https://go.echoar.xyz/UwEV" class="btn btn-primary">Show me an arctic fox!</a>
+                        
+                        <!-- Should not appear on mobile phones-->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter2">See on your phone</button>
                     </div>
                 </div>  
             </div>
         </div>
     </div>
+
     <br>
+
     <div class="row">
         <div class="col-lg-6 col-md-6">
             <div class="card bg-dark">
@@ -90,7 +99,9 @@
                     <h2 class="title"><strong>My Family</strong></h2>
                     <p class="card-text">My <b>family</b> is such a great one, I care so much about them. I can't wait to spend time with them this summer!</p>
                     <div class="text-center card-footer">
-                        <a href="https://go.echoar.xyz/XRSr" class="btn btn-primary">Show me my family!</a> <!-- Make the link exit the webpage (new tab)-->
+                        <a href="https://go.echoar.xyz/XRSr" class="btn btn-primary">Show me my family!</a>
+                                                <!-- Should not appear on mobile phones-->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter3">See on your phone</button>
                     </div>
                 </div>  
             </div>
@@ -103,8 +114,80 @@
                     <p class="card-text">These <b>shoes</b> have been always worn by me since I bought them in 1953. I can never go anywhere <b>without these shoes.</b> They are fantastic!</p>
                     <div class="text-center card-footer">
                         <a href="https://go.echoar.xyz/HwBP" class="btn btn-primary">Show me my shoes!</a>
+                        
+                        <!-- Should not appear on mobile phones-->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter4">See on your phone</button>
                     </div>
                 </div>  
+            </div>
+        </div>
+    </div>
+</div>
+  
+<!-- Modals for all four elements -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle"><b>Scan this QR Code to see the object on your phone in Augmented Reality!</b></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img class="img-fluid" src="assets/guitar_qr.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle"><b>Scan this QR Code to see the object on your phone in Augmented Reality!</b></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img class="img-fluid" src="assets/fox_qr.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle"><b>Scan this QR Code to see the object on your phone in Augmented Reality!</b></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img class="img-fluid" src="assets/family_qr.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle"><b>Scan this QR Code to see the object on your phone in Augmented Reality!</b></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img class="img-fluid" src="assets/shoes_qr.jpg">
             </div>
         </div>
     </div>
@@ -116,16 +199,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
 </body>
 
-                    <!-- <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://console.echoAR.xyz/arjs?key=dawn-voice-0737" allow="camera *" allowfullscreen></iframe>
-                    </div> -->
-
 </html>
 
 <!-- 
     Ideas:
         - add button that opens modal QR Code
-
+        - link opens to new tab 
 
     Remember cite everything!!
 -->
